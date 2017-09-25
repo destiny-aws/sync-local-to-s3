@@ -18,7 +18,7 @@ S3CMD_PARAMS="--delete-removed --verbose --server-side-encryption"
 SOURCE="/path/to/folder-name/"
 
 # Destination to S3 (folder-name is optional)
-DESTINATION="s3://bucket-name/folder-name/"
+DESTINATION="s3://destiny-public/sync/"
 
 # Set upload bandwidth limit (1000 kbps in this example) - (set to "" to disable)
 cmd_TRICKLE="$(which trickle) -s -u 1000"
